@@ -107,20 +107,20 @@
 // a3b4c1d4
 
 // let input = prompt('문자열을 입력하세요');
-// // let input = 'aaabbbbcddddz';
+// // let input = 'aaabbbbcaaaaaddddz';
 // let count = 1;
 // let arr = Array.from({ length: 26 }, () => 0);
 // let answer = '';
-// for (let a of input) {
-//   arr[a.charCodeAt() - 'a'.charCodeAt()] += 1;
+// for (let value of input) {
+//   arr[value.charCodeAt() - 'a'.charCodeAt()] += 1;
 // }
+// // console.log(arr);
 // for (let i = 0; i < 26; i++) {
 //   if (arr[i] !== 0) {
 //     answer += `${String.fromCharCode(97 + i)}${arr[i]}`;
 //   }
 // }
-
-// // console.log(answer);
+// console.log(answer);
 
 /* [ 자바스크립트 아스키코드 ]
 - 대문자 A~Z : 65~90
