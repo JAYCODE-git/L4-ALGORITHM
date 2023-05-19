@@ -34,6 +34,29 @@
 // 가장 적게 옮길 수 있는 횟수를 출력합니다.
 // 만약 어떻게 해도 정량이 N이 되지 않는다면 -1을 출력합니다.
 
+// let input = parseInt(prompt('정량을 입력해주세요'));
+// // let input = 24;
+// let temp = input;
+// let n = 0;
+// let flag = 0;
+// let answer;
+
+// while (temp - 7 > 0) {
+//   temp -= 7;
+//   n++;
+// }
+
+// for (let i = n; i > 0; i--) {
+//   let mod = input - 7 * i;
+//   if (mod % 3 === 0) {
+//     flag++;
+//     answer = i + parseInt(mod / 3);
+//     break;
+//   }
+// }
+
+// flag === 0 ? console.log(-1) : console.log(answer);
+
 //
 //65
 //todo 변형된 리스트
